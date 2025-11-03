@@ -31,8 +31,8 @@ const StaffListStyled = styled.div`
 
             h3 {
                 color: ${({ theme }) => theme.colors.secondary.default};
-                font-size: 16px;
-                margin: 0px;
+                font-size: 24px;
+                margin: 0px 0px 10px;
                 line-height: 100%;
             }
             h4 {
