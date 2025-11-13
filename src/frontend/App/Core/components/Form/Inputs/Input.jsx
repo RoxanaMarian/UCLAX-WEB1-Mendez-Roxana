@@ -13,6 +13,7 @@ const InputStyled = styled.input`
 // component
 const Input = ({ formInput, onChange }) => {
     const { id, labelText, type = "text", value, errorMessage } = formInput;
+
     return (
         <InputGroup
             htmlFor={id}

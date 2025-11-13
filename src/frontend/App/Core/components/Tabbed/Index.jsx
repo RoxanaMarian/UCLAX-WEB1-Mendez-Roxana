@@ -9,8 +9,6 @@ import TabContent from "./TabContent";
 const Tabbed = ({ tabs }) => {
     const [curTab, setCurTab] = useState(tabs[0]);
 
-    console.log({ curTab });
-
     return (
         <div>
             <TabList tabs={tabs} curTab={curTab} setCurTab={setCurTab} />
