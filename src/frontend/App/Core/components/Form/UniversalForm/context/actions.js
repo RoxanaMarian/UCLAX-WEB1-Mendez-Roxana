@@ -17,7 +17,7 @@ export const createActions = (state, dispatch) => {
 
     const setFormStatus = (formStatus) => {
         dispatch({
-            type: actionTypes.SET_FORM_INPUTS,
+            type: actionTypes.SET_FORM_STATUS,
             formStatus,
         });
     };
