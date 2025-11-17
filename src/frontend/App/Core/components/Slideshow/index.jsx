@@ -20,5 +20,5 @@ export default Slideshow;
 
 // prop-types
 Slideshow.propTypes = {
-    slides: PropTypes.array.isRequiered,
+    slides: PropTypes.array.isRequired,
 };

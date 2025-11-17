@@ -9,11 +9,17 @@ import { reducer } from "./context/reducer";
 import FormTemplate from "./Components/FormTemplate";
 
 // component
-const UniversalForm = ({ formInputs, apiEndpoint, trackingId }) => {
+const UniversalForm = ({
+    formInputs,
+    apiEndpoint,
+    trackingId,
+    submitText = "submit",
+}) => {
     const stateProps = {
         formInputs,
         apiEndpoint,
         trackingId,
+        submitText,
         formStatus: "idle",
         globalMessage: { type: "none", text: "" },
     };
@@ -36,4 +42,5 @@ UniversalForm.propTypes = {
     formInputs: PropTypes.array.isRequired,
     apiEndpoint: PropTypes.string.isRequired,
     trackingId: PropTypes.string.isRequired,
+    submitText: PropTypes.string,
 };

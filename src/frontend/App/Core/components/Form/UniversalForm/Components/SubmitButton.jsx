@@ -6,8 +6,8 @@ import Button from "@Core/components/Form/Button";
 
 // component
 const SubmitButton = () => {
-    const { formStatus } = useUniversalForm();
-    const text = formStatus === "processing" ? "Submitting..." : "Submit";
+    const { formStatus, submitText } = useUniversalForm();
+    const text = formStatus === "processing" ? "Submitting..." : submitText;
     return <Button type="submit">{text}</Button>;
 };
 
