@@ -8,8 +8,8 @@ export const valideFormInputs = (formInputs, actions) => {
 
         let errorMessage = "";
 
-        if (rules.includes("required") && value.lenght === 0) {
-            errorMessage = `${labelText.Text} is required.`;
+        if (rules.includes("required") && value.length === 0) {
+            errorMessage = `${labelText} is required.`;
             isValid = false;
         } else if (rules.includes("email") && !isEmailValid(value)) {
             errorMessage = `${labelText} is not a valid email.`;
