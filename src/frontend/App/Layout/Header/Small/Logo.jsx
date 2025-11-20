@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // components
-import SharedLogo from "@App/Core/Components/Logo";
+import SharedLogo from "@App/Core/components/Logo";
 
 //styles
 const LogoStyled = styled.div`

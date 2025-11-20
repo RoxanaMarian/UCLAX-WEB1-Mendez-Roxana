@@ -1,5 +1,8 @@
 import { useContext } from "react";
 
+// spam
+import { useSpamBuster } from "@Core/components/Form/SpamBuster/useSpamBuster";
+
 // context
 import UniversalFormContext from "./index.js";
 import { createActions } from "./actions.js";
@@ -10,8 +13,10 @@ import { valideFormInputs } from "./valideFormInputs.js";
 export const useUniversalForm = () => {
     const { state, dispatch } = useContext(UniversalFormContext);
     const actions = createActions(state, dispatch);
+    const { trackingId } = state;
+    const { getToken } = useSpamBuster(trackingId);
 
-    const onSubmit = (formInputs) => {
+    const onSubmit = async (formInputs) => {
         actions.setFormStatus("processing");
         actions.setGlobalMessage({ type: "none", text: "" });
 
@@ -22,9 +27,23 @@ export const useUniversalForm = () => {
             return false;
         }
 
-        const postData = Object.entries(
-            formInputs.map(({ id, value }) => [id, value])
-        );
+        // validate human
+        const { success, message, token } = await getToken();
+        if (!success) {
+            actions.setFormStatus("idle");
+            actions.setGlobalMessage({
+                type: "error",
+                text: `${message}. Please check form and try again.`,
+            });
+            return false;
+        }
+
+        const postData = {
+            token: token,
+            ...Object.fromEntries(
+                formInputs.map(({ id, value }) => [id, value])
+            ),
+        };
 
         console.log(postData);
 
