@@ -31,7 +31,7 @@ const Form = () => {
         <UniversalForm
             formInputs={formInputs}
             apiEndpoint="/sendmail"
-            trackingId="/contact"
+            trackingId="contact"
             submitText="Send"
         />
     );

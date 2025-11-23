@@ -2,6 +2,8 @@ import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 // component
 const SpamBusterProvider = ({ children }) => {
+    console.log(import.meta.env.VITE_RECAPTCHA_SITE_KEY);
+
     return (
         <GoogleReCaptchaProvider
             reCaptchaKey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}

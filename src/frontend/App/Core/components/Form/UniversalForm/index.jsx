@@ -31,6 +31,10 @@ const UniversalForm = ({
 
     const value = useMemo(() => ({ state, dispatch }), [state, dispatch]);
 
+    console.log("hello");
+
+    console.log(import.meta.env.VITE_RECAPTCHA_SITE_KEY);
+
     return (
         <SpamBusterProvider>
             <UniversalFormContext.Provider value={value}>
