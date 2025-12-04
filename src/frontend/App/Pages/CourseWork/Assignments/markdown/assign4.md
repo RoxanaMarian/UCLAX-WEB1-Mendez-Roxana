@@ -1,0 +1,3 @@
+### What is the difference between a Front-End and Back-End Developer?
+
+Front-end is what you see and interact with, like buttons, forms, photos, and pages. It uses tools like HTML, CSS, and JavaScript. Back-end is what happens behind the scenes to make everything work, like storing data, processing logins, or updating inventory. It uses tools like Python, Java, PHP, or databases. In short, front-end is the “face” you see, and back-end is the “brain” that makes it work. For example, when you log in or buy something online, the front-end shows the forms and buttons, and the back-end checks your info and updates the system.

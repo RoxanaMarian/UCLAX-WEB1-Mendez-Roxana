@@ -1,0 +1,3 @@
+### In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?
+
+We can link to files using document-relative or root-relative paths. A document-relative path starts from the folder of the file you’re working on. You use ./ for the same folder or ../ to go up a folder. This works only if the file stays in the same place. A root-relative path always starts from the main project folder with a / and works no matter where your file is. You can think of it like this: document-relative is “start looking from the room I’m in,” and root-relative is “start looking from the main entrance of the house.”

@@ -1,0 +1,3 @@
+### What is the difference between JQuery and React?
+
+jQuery and React are both JavaScript libraries.jQuery is older and helps make small changes on a webpage, like showing or hiding things, adding effects, or reacting to clicks. It works with the code already on the page and makes common tasks easier. React is newer and helps build bigger parts of a website, like buttons, menus, or whole pages, in an organized way. It uses reusable components and updates the page automatically when something changes. So, jQuery is good for quick, simple changes, while React is better for modern, dynamic websites and apps.
