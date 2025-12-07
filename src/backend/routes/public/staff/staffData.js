@@ -1,146 +1,160 @@
 export const staffData = [
     {
         id: 1,
-        src: "/assets/staff/Alex-Esqueda.jpg",
-        name: "Alex Esqueda",
-        yearStarted: 2013,
+        src: "/assets/staff/Debut.jpg",
+        name: "Debut",
+        yearStarted: 2006,
         accolades: [
-            "Co-Owner, PageMeta Coach",
-            "Program Designer CrossFit Decimate",
-            "Decimate Performance Training",
-            "CCFT/L-3 Certified CrossFit Trainer",
+            "Certified 7x Platinum by the RIAA.",
+            "The album spent 24 weeks at No. 1 on the Billboard Top Country Albums chart.",
+            "Top 10 country hit, Teardrops on My Guitar.",
         ],
         bio: `
-            <p><strong>Alex Esqueda</strong> has been a cornerstone of the CrossFit Decimate community since 2013. As a <strong>Co-Owner and PageMeta Coach</strong>, Alex combines his expertise in <em>program design</em> with his passion for fitness to create transformative training experiences for athletes of all levels.</p>
-            <p>With the prestigious <strong>CCFT/L-3 Certified CrossFit Trainer</strong> credential, Alex's dedication to excellence is evident in every class he leads. His role in <em>Decimate Performance Training</em> ensures athletes not only meet but exceed their fitness goals. Outside the gym, Alex enjoys mentoring coaches and fostering a vibrant, supportive community.</p>
+            <p>Introduced Taylor's country-pop sound with heartfelt storytelling, youthful charm, and personal lyrics inspired by teenage life and first love. It established her signature narrative style and earned early recognition as a rising star in country music.</p>
         `,
     },
     {
         id: 2,
-        src: "/assets/staff/Silvie-Esqueda.jpg",
-        name: "Silvie Esqueda",
-        yearStarted: 2013,
+        src: "/assets/staff/Fearless.jpg",
+        name: "Fearless",
+        yearStarted: 2008,
         accolades: [
-            "Co-Owner & Coach",
-            "CF-L2",
-            "USAW L-1",
-            "Precision Nutrition L-1",
+            "Album of the Year at the 52nd Grammy Awards.",
+            "Certified Diamond by the RIAA",
         ],
         bio: `
-            <p><strong>Silvie Esqueda</strong> is a passionate fitness professional and <strong>Co-Owner</strong> of CrossFit Decimate. Since 2013, she has inspired athletes through her dynamic coaching style and deep commitment to health and wellness.</p>
-            <p>With certifications in <strong>CF-L2</strong>, <strong>USAW L-1</strong>, and <strong>Precision Nutrition L-1</strong>, Silvie takes a holistic approach to fitness. Whether she's coaching group classes or guiding athletes in nutrition, her goal is to empower individuals to become their best selves. Outside the gym, Silvie enjoys fostering a welcoming community and helping athletes discover their inner strength.</p>
+            <p>Fearless was a breakthrough album blending country and pop; it went on to win Album of the Year at the Grammys, making Taylor Swift the youngest person ever to win the award at the time. Known for its romantic ballads and anthems about young love, the album's success led directly to the Fearless Tour, her first headlining arena concert tour. Its legacy was redefined with <strong>Fearless (Taylor's Version)</strong> (released April 9, 2021), which she re-recorded to regain control of her master recordings, ultimately securing its place as one of the best-selling albums of the decade.</p>
         `,
     },
     {
         id: 3,
-        src: "/assets/staff/Kara-Smith.jpg",
-        name: "Kara Smith",
-        yearStarted: 2012,
+        src: "/assets/staff/SpeakNow.jpg",
+        name: "Speak Now",
+        yearStarted: 2010,
         accolades: [
-            "Lead Coach & Operations Assistant",
-            "CF-L2 Trainer",
-            "ATA Certified: Adaptive & Inclusive Trainer",
-            "The Phoenix (Volunteer)",
+            "Debuted at No. 1 on the Billboard.",
+            "Song Mean won two Grammy Awards.",
         ],
         bio: `
-            <p><strong>Kara Smith</strong> has been making waves in the CrossFit world since 2012. As the <strong>Lead Coach</strong> and <em>Operations Assistant</em> at CrossFit Decimate, Kara brings unmatched energy and organizational skills to the team.</p>
-            <p>Her certifications, including <strong>CF-L2 Trainer</strong> and <strong>ATA Certified: Adaptive & Inclusive Trainer</strong>, reflect her dedication to creating inclusive spaces for all athletes. Kara's volunteer work with <em>The Phoenix</em> highlights her passion for helping others overcome challenges through fitness and community. Her ability to inspire is second to none.</p>
+            <p>Entirely self-written, combining country roots with theatrical, pop-leaning storytelling. With confessional lyrics about love, regret, and personal growth, the album showcased her maturing songwriting and creative independence. Its powerful narrative was re-captured in <strong>Speak Now (Taylor's Version)</strong> (released July 7, 2023), continuing her fight for artistic ownership.</p>
         `,
     },
     {
         id: 4,
-        src: "/assets/staff/Brooke-Musseau.jpg",
-        name: "Brooke Musseau",
-        yearStarted: 2019,
+        src: "/assets/staff/Red.jpg",
+        name: "Red",
+        yearStarted: 2012,
         accolades: [
-            "Coach: Group Classes & Fundamentals",
-            "CF-L2, Trainer",
-            "ISSA Personal Trainer",
-            "Nutrition Coach",
+            "TV broke Spotify's record for most-streamed album in a single day.",
+            "Debuted at No. 1 on the Billboard 200.",
         ],
         bio: `
-            <p><strong>Brooke Musseau</strong> joined CrossFit Decimate in 2019 and quickly became an integral part of the team. As a <strong>CF-L2 Trainer</strong> and <em>ISSA Personal Trainer</em>, she specializes in coaching group classes and fundamentals, ensuring new members feel confident and supported.</p>
-            <p>Brooke's role as a <strong>Nutrition Coach</strong> adds depth to her expertise, allowing her to guide athletes in achieving well-rounded fitness and lifestyle goals. Her upbeat personality and dedication to individual progress make her classes a favorite among members.</p>
+            <p>Shifted toward pop-rock and mainstream pop while keeping country influences; acclaimed for its emotional depth and storytelling. This era was redefined by Red (Taylor's Version) (released November 12, 2021) as part of her continued fight for her master recordings, and finally released the highly-requested, fan-favorite <strong>“All Too Well (10-Minute Version).”</strong>.</p>
         `,
     },
     {
         id: 5,
-        src: "/assets/staff/Amber-Dyett.jpg",
-        name: "Amber Dyett",
-        yearStarted: 2016,
-        accolades: ["Coach", "CF-L2", "PN-1", "BIRTHFIT Certified"],
+        src: "/assets/staff/1989.jpg",
+        name: "1989",
+        yearStarted: 2014,
+        accolades: [
+            "Won Grammy Album of the Year (first woman to win twice).",
+            "Produced three Billboard Hot 100 No. 1 singles.",
+        ],
         bio: `
-            <p><strong>Amber Dyett</strong> has been a key member of the CrossFit Decimate coaching team since 2016. With a <strong>CF-L2</strong> certification and specialization in <em>BIRTHFIT</em>, Amber is known for her ability to tailor workouts to meet the unique needs of her athletes.</p>
-            <p>Her additional credentials, including <strong>PN-1</strong>, underscore her commitment to fostering health and wellness both inside and outside the gym. Amber's supportive approach and attention to detail make her a standout coach who helps every athlete achieve their potential.</p>
+            <p>A <strong>complete pop</strong> reinvention, loved and praised by fans and the general public; it cemented her status as a global pop icon. Synth-driven, polished, and upbeat, it produced massive pop culture hits. The re-recording, 1989 (Taylor's Version) (released October 27, 2023), successfully completed the main phase of re-recording her foundational pop albums.</p>
         `,
     },
     {
         id: 6,
-        src: "/assets/staff/Dr-Skyler-Harms.jpg",
-        name: "Dr Skyler Harms",
-        yearStarted: 2010,
+        src: "/assets/staff/Reputation.jpg",
+        name: "Reputation",
+        yearStarted: 2017,
         accolades: [
-            "Physical Therapist",
-            "Doctor of Physical Therapy",
-            "Titleist Performance Institute Certified",
-            "Dry Needling Level 2",
+            "Highest-grossing tour in U.S. history by a female artist at the time.",
+            "Debuted at No. 1 selling over 2 million copies globally in its first week.",
         ],
         bio: `
-            <p><strong>Dr. Skyler Harms</strong>, a <em>Doctor of Physical Therapy</em>, has been a vital part of the CrossFit Decimate team since 2010. Skyler brings a wealth of expertise in movement mechanics and injury prevention, helping athletes of all levels excel safely.</p>
-            <p>Certified in <strong>Titleist Performance</strong> and <em>Dry Needling Level 2</em>, Skyler’s approach integrates advanced therapeutic techniques with functional fitness. His work ensures members are not just stronger but healthier in every way.</p>
+            <p>Marked Taylor's comeback with dark, edgy pop featuring electronic and synth elements. While its exterior felt intense and vengeful, the album also included many love songs, showing depth and emotion. Loved by fans from the start, it has gained <strong>renewed</strong> appreciation over time from those initially less enthusiastic.</p>
         `,
     },
     {
         id: 7,
-        src: "/assets/staff/Elisa-Eastwood.jpg",
-        name: "Elisa Eastwood",
-        yearStarted: 2014,
+        src: "/assets/staff/Lover.jpg",
+        name: "Lover",
+        yearStarted: 2019,
         accolades: [
-            "Coach: Group Classes & Fundamentals",
-            "CF-L1",
-            "2018 CF Regional Competitor",
+            "All tracks charted on the Billboard Hot 100 (setting a female record).",
+            "Best-selling album of 2019 in the U.S. (Nielsen Music).",
         ],
         bio: `
-            <p><strong>Elisa Eastwood</strong> has been inspiring athletes at CrossFit Decimate since 2014. With her <strong>CF-L1</strong> certification and extensive experience, Elisa excels in coaching group classes and fundamentals.</p>
-            <p>A former <strong>2018 CrossFit Regional Competitor</strong>, Elisa brings a competitive edge to her coaching. Her focus on technique and form ensures that every athlete trains effectively while building confidence.</p>
+            <p>Bright, romantic pop with upbeat melodies, moving away from Reputation's darker tone. The album celebrates love, self-reflection, and joy, blending heartfelt ballads with carefree anthems. It also highlighted Taylor's support for LGBTQ+ rights and was featured in the <strong>Miss Americana</strong> docuseries, showing her personal growth and activism.</p>
         `,
     },
     {
         id: 8,
-        src: "/assets/staff/Jaque-Ong.jpg",
-        name: "Jaque Ong",
-        yearStarted: 2012,
+        src: "/assets/staff/Folklore.jpg",
+        name: "Folklore",
+        yearStarted: 2020,
         accolades: [
-            "PageMeta Olympic Lifting Coach",
-            "U.S.A.W",
-            "IKKF Instructor",
-            "Sports & Performance Cert Trainer",
+            "Won Grammy Album of the Year (first woman to win three times).",
+            "Debuted No. 1 on the Billboard 200 and Billboard Hot 100 simultaneously with song Cardigan.",
         ],
         bio: `
-            <p><strong>Jaque Ong</strong>, a dedicated <em>Olympic Lifting Coach</em>, has been a pillar of the CrossFit Decimate team since 2012. His expertise in <strong>U.S.A.W</strong> and <strong>IKKF</strong> training helps athletes refine their technique and unlock new levels of performance.</p>
-            <p>As a <strong>Sports & Performance Certified Trainer</strong>, Jaque is committed to helping athletes push boundaries while emphasizing safety and precision. His passion for lifting and dedication to his craft are truly inspiring.</p>
+            <p>Released as a surprise drop during the COVID-19 pandemic, this album marked a shift to <strong>indie-folk</strong> and alternative storytelling. It was a massive hit, praised by critics and the general public alike for its introspective lyrics, subtle production, and mature songwriting.</p>
         `,
     },
     {
         id: 9,
-        src: "/assets/staff/John-Giron.jpg",
-        name: "John Giron",
-        yearStarted: 2010,
-        accolades: ["Coach: Group Classes & Fundamentals", "CF-L1"],
+        src: "/assets/staff/Evermore.jpg",
+        name: "Evermore",
+        yearStarted: 2020,
+        accolades: [
+            "Debuted No. 1 on the Billboard 200, her second No. 1 album of 2020.",
+            "The album and single Willow both debuted at No. 1 simultaneously.",
+        ],
         bio: `
-            <p><strong>John Giron</strong> has been coaching at CrossFit Decimate since 2010, bringing over a decade of experience to the team. As a <strong>CF-L1</strong> certified coach, he specializes in group classes and fundamentals, helping athletes build strong foundations.</p>
-            <p>John's approachable style and dedication to each athlete’s progress make him a valued coach within the community. His enthusiasm and positivity ensure every member feels encouraged and supported in their fitness journey.</p>
+            <p>Released as a surprise <strong>“sister album”</strong> to Folklore, it continued the indie-folk and alternative style, deepening narrative-driven songwriting. Loved by fans for its <strong>deep cuts</strong> and emotional storytelling, it was dropped unexpectedly as Taylor continued writing and exploring new ideas during the pandemic.</p>
         `,
     },
     {
         id: 10,
-        src: "/assets/staff/Karlie-Goretski.jpg",
-        name: "Karlie Goretski",
-        yearStarted: 2015,
-        accolades: ["Coach: Kids CF", "CF-L1"],
+        src: "/assets/staff/Midnights.jpg",
+        name: "Midnights",
+        yearStarted: 2022,
+        accolades: [
+            "Won Grammy Album of the Year (first artist to ever win four times).",
+            "Occupied the entire top 10 of the Billboard Hot 100 simultaneously (a historic first).",
+        ],
         bio: `
-            <p><strong>Karlie Goretski</strong> joined the CrossFit Decimate team in 2015 and has since become a beloved <strong>Kids CF Coach</strong>. With her <strong>CF-L1</strong> certification, Karlie focuses on building confidence and athletic skills in the next generation of athletes.</p>
-            <p>Her playful yet disciplined approach ensures kids not only develop fitness but also a love for movement and health. Karlie's passion for teaching and positive energy make her an irreplaceable part of the community.</p>
+            <p>Moody synth-pop exploring introspection and late-night thoughts, blending pop and electronic textures. The album became a massive success, topping charts worldwide and making history on Billboard. Midnights also served as the <strong>launchpad for the record-breaking Eras Tour,</srtong> marking another major milestone in her career.</p>
+        `,
+    },
+    {
+        id: 11,
+        src: "/assets/staff/TheTorturedPoetsDepartment.jpg",
+        name: "Tortured Poets Dept.",
+        yearStarted: 2024,
+        accolades: [
+            "Achieved a historic Triple Crown debut (US, UK, and Australia charts).",
+            "Broke the record for the most-streamed album in a single day on Spotify.",
+        ],
+        bio: `
+            <p>The Tortured Poets Department is a cathartic album with deep, profound lyricism, expanding storytelling through cinematic performances and immersive live experiences. <strong>Released during the Eras Tour</strong>, it was quickly added to the tour's setlist, continuing Taylor's blend of pop with experimental sounds while giving fans a new, emotional chapter of her music.</p>
+        `,
+    },
+    {
+        id: 12,
+        src: "/assets/staff/LifeOfaShowgirl.jpg",
+        name: "The Life Of a Showgirl",
+        yearStarted: 2025,
+        accolades: [
+            "Fastest-selling album in history (+ 4 million units in its first week).",
+            "Broke the record for the most No. 1 albums for any soloist on the Billboard 200 (15 total).",
+            "This era is a special mention as the album was released after the Eras Tour concluded.",
+        ],
+        bio: `
+            <p>This is Taylor Swift's <strong>latest studio album.</strong> It is a soft pop and soft rock record inspired by the atmosphere of the Eras Tour, reflecting a vibrant and triumphant state of mind. It deals with themes of fame and contentment in love. The track "Opalite" not only broke the first-week non-single streaming record but became a global viral favorite, praised across all ages and trending widely on social media. The visual aesthetic is characterized by its flamboyant, "showgirl"-inspired look.</p>
         `,
     },
 ];
