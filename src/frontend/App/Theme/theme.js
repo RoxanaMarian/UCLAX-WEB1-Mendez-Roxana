@@ -26,19 +26,19 @@ export const theme = {
     },
     colors: {
         primary: {
-            default: "#014444",
-            medium: "#006161",
-            light: "#7ccdcd",
-            dark: "#012626",
+            default: "#1A2442",
+            medium: "#3e56a1ff",
+            light: "#cfd4e1ff",
+            dark: "#1A2442",
         },
         secondary: {
-            default: "#eee",
-            light: "#fff",
-            dark: "#999",
+            default: "#cfd4e1ff",
+            light: "#5677db",
+            dark: "#1A2442",
         },
         messaging: {
-            success: { color: "#000", bgColor: "#b2ecb2" },
-            error: { color: "#000", bgColor: "#f5672a" },
+            success: { color: "#1A2442", bgColor: "#D4EDDA" },
+            error: { color: "#1A2442", bgColor: "#f2d8ffff" },
         },
     },
 };

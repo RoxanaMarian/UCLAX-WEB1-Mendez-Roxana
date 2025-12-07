@@ -1,20 +1,20 @@
 export const tabsData = [
     {
         id: 1,
-        src: "/assets/tabs/Alex-Esqueda-Box-Jump.jpg",
+        src: "/assets/tabs/AboutEras.jpg",
         title: "About",
-        text: "<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey to fit your lifestyle.</p>",
+        text: "<p><b>The Eras Tour (2023-2024)</b> - Taylor Swift's global, record-breaking concert tour celebrating all her musical eras. Spanning 149 shows worldwide, it became the highest-grossing tour ever. Each show lasted over 3.5 hours, a rare feat for live performances, featuring a massive, elaborate stage that was transported across continents. The tour was widely acclaimed for its stunning production, immersive storytelling, and massive cultural impact, setting a new standard for stadium shows. Throughout the run, Taylor also brought out select special guests, friends, and collaborators who joined her for surprise songs or unique one-night-only moments.</p>",
     },
     {
         id: 2,
-        src: "/assets/tabs/Tire-Flip.jpg",
-        title: "Mission",
-        text: "<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>",
+        src: "/assets/tabs/SurpriseSong.jpg",
+        title: "Surprise Songs",
+        text: "<p>Taylor Swift's Eras Tour included a beloved “surprise songs” segment, where she performed two unique acoustic songs each night on guitar and piano. Every show featured a different combination, and many were creative mash-ups that blended songs from multiple eras. This rotating section became one of the tour's most exciting elements, giving each concert a one-of-a-kind moment for fans.</p>",
     },
     {
         id: 3,
-        src: "/assets/tabs/Kids.jpg",
-        title: "Vision",
-        text: "<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.</p>",
+        src: "/assets/tabs/SocialImpact.jpg",
+        title: "Social Impact",
+        text: "<p>The Eras Tour became a worldwide cultural phenomenon. Thousands of fans gathered outside stadiums just to listen from the parking lots, while social media livestreams from attendees were watched by countless viewers every night. The tour boosted local economies, revived tourism, and inspired a wave of creativity, from themed outfits and friendship bracelets to other artists adopting surprise elements and fan-driven traditions. More than a concert, it created a global community experience that reshaped the modern live-music landscape.</p>",
     },
 ];
