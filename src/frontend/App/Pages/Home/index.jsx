@@ -12,7 +12,7 @@ import Meta from "@App/Core/components/Meta";
 import Inset from "@App/Layout/Inset";
 import Slideshow from "./Slideshow";
 import Tabbed from "./Tabbed";
-import YouTubePlayer from "./YouTubePlayer";
+import HomeVideoSection from "./HomeVideoSection";
 
 // component
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
                     <Meta />
                     <h1>Home</h1>
                     <Tabbed />
-                    <YouTubePlayer />
+                    <HomeVideoSection />
                 </Inset>
             </main>
         </HomeStyled>
