@@ -41,7 +41,7 @@ const StaffMember = () => {
     const { src, name, YearStarted, accolades, bio } = member;
 
     const crumbs = [
-        { id: 1, href: "/staff", text: "All staff" },
+        { id: 1, href: "/staff", text: "The Eras" },
         { id: 2, text: name },
     ];
 
@@ -50,12 +50,12 @@ const StaffMember = () => {
             <Inset>
                 <StaffMemberStyled>
                     <Meta pageTitle={`${name} :: Staff Member`} />
-                    <h1>Staff Member</h1>
+                    <h1>Eras</h1>
                     <Breadcrumbs crumbs={crumbs} />
                     <img src={src} alt={name} />
                     <h2>{name}</h2>
-                    <h3>Year Started: {YearStarted}</h3>
-                    <h3>Accolades</h3>
+                    <h3>Release Year: {YearStarted}</h3>
+                    <h3>Highlights</h3>
 
                     <ul>
                         {accolades.map((accolade, idx) => {

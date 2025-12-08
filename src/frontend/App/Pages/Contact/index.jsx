@@ -8,8 +8,8 @@ const Contact = () => {
     return (
         <main>
             <Inset>
-                <Meta pageTitle="Contact" />
-                <h1>Contact</h1>
+                <Meta pageTitle="Fan Mail" />
+                <h1>Send Taylor a note! 💌</h1>
                 <Form />
             </Inset>
         </main>

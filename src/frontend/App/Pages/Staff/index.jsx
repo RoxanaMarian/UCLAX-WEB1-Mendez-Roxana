@@ -9,7 +9,7 @@ const Staff = () => {
         <main>
             <Inset>
                 <Meta pageTitle="Staff" />
-                <h1>Staff</h1>
+                <h1>The Eras (albums)</h1>
                 <StaffList />
             </Inset>
         </main>
