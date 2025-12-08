@@ -1,5 +1,5 @@
 import React from "react";
-import ReusablePlayer from "../../Core/components/YoutubePlayer";
+import ReusablePlayer from "../../Core/components/YouTubePlayer";
 
 const HomeVideoSection = () => {
     const homeVideoLink = "https://www.youtube.com/watch?v=KudedLV0tP0";
