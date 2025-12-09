@@ -159,6 +159,9 @@ const GlobalStyle = createGlobalStyle`
                     }
                 }
             }
+            .carousel .slide .legend {
+                background-color: #5677db;
+            }
         `;
     }}
 

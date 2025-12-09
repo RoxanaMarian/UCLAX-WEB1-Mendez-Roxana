@@ -38,7 +38,7 @@ const StaffMember = () => {
 
     if (!member) return <Preloader />;
 
-    const { src, name, YearStarted, accolades, bio } = member;
+    const { src, name, yearStarted, accolades, bio } = member;
 
     const crumbs = [
         { id: 1, href: "/staff", text: "The Eras" },
@@ -54,7 +54,7 @@ const StaffMember = () => {
                     <Breadcrumbs crumbs={crumbs} />
                     <img src={src} alt={name} />
                     <h2>{name}</h2>
-                    <h3>Release Year: {YearStarted}</h3>
+                    <h3>Release Year: {yearStarted}</h3>
                     <h3>Highlights</h3>
 
                     <ul>
